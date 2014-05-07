@@ -98,6 +98,11 @@
     [self.viewModel updateBookType:sc.selectedSegmentIndex];
 }
 
+- (IBAction)hideKeyboard:(id)sender
+{
+    [self.view endEditing:YES];
+}
+
 #pragma mark - View code
 - (void)configureSegmentedControlForBookType:(BookType)type
 {

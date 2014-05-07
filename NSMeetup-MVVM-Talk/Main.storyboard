@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="A3w-Ea-bFm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="A3w-Ea-bFm">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -63,7 +63,6 @@
         <!--Example2 View Controller - Presenter Example-->
         <scene sceneID="gxM-xN-QG5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uGP-WN-jNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController title="Presenter Example" id="bmY-PE-s51" customClass="AFBExample2ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RO7-a8-bPI"/>
@@ -152,6 +151,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Presenter Example" id="EV3-E4-dtm">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="FBh-P0-ikR">
+                            <connections>
+                                <action selector="hideKeyboard:" destination="bmY-PE-s51" id="yyQ-5j-5Zg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="authorField" destination="OmQ-E6-IC2" id="1pN-pX-Dk2"/>
                         <outlet property="bookTypeSegmentedControl" destination="PNp-I4-ODK" id="OZt-jk-38c"/>
@@ -161,6 +167,7 @@
                         <outlet property="view" destination="0F6-xp-xB3" id="zLv-nn-Jmh"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uGP-WN-jNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="393" y="649"/>
         </scene>
@@ -255,6 +262,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="ViewModel Example" id="uBp-ps-qAP">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bmW-dv-xeN">
+                            <connections>
+                                <action selector="hideKeyboard:" destination="N4G-Um-IwC" id="ToN-XE-loD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="authorField" destination="TMw-tL-sX6" id="Uhp-vu-d0M"/>
                         <outlet property="bookTypeSegmentedControl" destination="lbC-r9-wOH" id="zIX-gX-Vah"/>

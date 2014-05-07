@@ -62,6 +62,11 @@
     [self.presenter updateBookType:sc.selectedSegmentIndex];
 }
 
+- (IBAction)hideKeyboard:(id)sender
+{
+    [self.view endEditing:YES];
+}
+
 #pragma mark - Presenter delegate methods
 - (void)updateBookTitle:(NSString *)title
 {
