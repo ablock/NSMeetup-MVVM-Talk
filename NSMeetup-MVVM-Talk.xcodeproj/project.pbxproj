@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9112767191A95DA0024F889 /* Binding.m in Sources */ = {isa = PBXBuildFile; fileRef = F9112766191A95DA0024F889 /* Binding.m */; };
+		F911276A191A96E70024F889 /* AFBBook.m in Sources */ = {isa = PBXBuildFile; fileRef = F9112769191A96E70024F889 /* AFBBook.m */; };
+		F9E1B35E191AD0A20061410B /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B35A191AD0A20061410B /* EXTRuntimeExtensions.m */; };
+		F9E1B35F191AD0A20061410B /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B35C191AD0A20061410B /* EXTScope.m */; };
+		F9E1B363191AD1E30061410B /* AFBExample2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B362191AD1E30061410B /* AFBExample2ViewController.m */; };
+		F9E1B366191AD2480061410B /* AFBExample2Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B365191AD2480061410B /* AFBExample2Presenter.m */; };
 		F9E9C66E191A91C90073FD30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66D191A91C90073FD30 /* Foundation.framework */; };
 		F9E9C670191A91C90073FD30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */; };
 		F9E9C672191A91C90073FD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C671191A91C90073FD30 /* UIKit.framework */; };
@@ -19,6 +25,9 @@
 		F9E9C689191A91C90073FD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C671191A91C90073FD30 /* UIKit.framework */; };
 		F9E9C691191A91C90073FD30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E9C68F191A91C90073FD30 /* InfoPlist.strings */; };
 		F9E9C693191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9C692191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m */; };
+		F9E9C6A2191A921F0073FD30 /* AFBExample1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9C6A1191A921F0073FD30 /* AFBExample1ViewController.m */; };
+		F9E9C6A5191A92340073FD30 /* AFBExample1ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9C6A4191A92340073FD30 /* AFBExample1ViewModel.m */; };
+		F9E9C6A7191A92720073FD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E9C6A6191A92720073FD30 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9112765191A95DA0024F889 /* Binding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Binding.h; sourceTree = "<group>"; };
+		F9112766191A95DA0024F889 /* Binding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Binding.m; sourceTree = "<group>"; };
+		F9112768191A96E70024F889 /* AFBBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBBook.h; sourceTree = "<group>"; };
+		F9112769191A96E70024F889 /* AFBBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBBook.m; sourceTree = "<group>"; };
+		F9E1B359191AD0A20061410B /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		F9E1B35A191AD0A20061410B /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		F9E1B35B191AD0A20061410B /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		F9E1B35C191AD0A20061410B /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		F9E1B35D191AD0A20061410B /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		F9E1B361191AD1E30061410B /* AFBExample2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample2ViewController.h; sourceTree = "<group>"; };
+		F9E1B362191AD1E30061410B /* AFBExample2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample2ViewController.m; sourceTree = "<group>"; };
+		F9E1B364191AD2480061410B /* AFBExample2Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample2Presenter.h; sourceTree = "<group>"; };
+		F9E1B365191AD2480061410B /* AFBExample2Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample2Presenter.m; sourceTree = "<group>"; };
 		F9E9C66A191A91C90073FD30 /* NSMeetup-MVVM-Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSMeetup-MVVM-Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E9C66D191A91C90073FD30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +70,11 @@
 		F9E9C68E191A91C90073FD30 /* NSMeetup-MVVM-TalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMeetup-MVVM-TalkTests-Info.plist"; sourceTree = "<group>"; };
 		F9E9C690191A91C90073FD30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F9E9C692191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMeetup_MVVM_TalkTests.m; sourceTree = "<group>"; };
+		F9E9C6A0191A921F0073FD30 /* AFBExample1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample1ViewController.h; sourceTree = "<group>"; };
+		F9E9C6A1191A921F0073FD30 /* AFBExample1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample1ViewController.m; sourceTree = "<group>"; };
+		F9E9C6A3191A92340073FD30 /* AFBExample1ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample1ViewModel.h; sourceTree = "<group>"; };
+		F9E9C6A4191A92340073FD30 /* AFBExample1ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample1ViewModel.m; sourceTree = "<group>"; };
+		F9E9C6A6191A92720073FD30 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +101,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9112764191A95A10024F889 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				F9112765191A95DA0024F889 /* Binding.h */,
+				F9112766191A95DA0024F889 /* Binding.m */,
+			);
+			name = Binding;
+			path = "NSMeetup-MVVM-Talk";
+			sourceTree = "<group>";
+		};
+		F911276B191A96EF0024F889 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9112768191A96E70024F889 /* AFBBook.h */,
+				F9112769191A96E70024F889 /* AFBBook.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F9E1B356191AD0410061410B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C6A3191A92340073FD30 /* AFBExample1ViewModel.h */,
+				F9E9C6A4191A92340073FD30 /* AFBExample1ViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9E1B357191AD0540061410B /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				F9E1B358191AD0A20061410B /* extobjc */,
+				F9112764191A95A10024F889 /* Binding */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		F9E1B358191AD0A20061410B /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				F9E1B359191AD0A20061410B /* EXTRuntimeExtensions.h */,
+				F9E1B35A191AD0A20061410B /* EXTRuntimeExtensions.m */,
+				F9E1B35B191AD0A20061410B /* EXTScope.h */,
+				F9E1B35C191AD0A20061410B /* EXTScope.m */,
+				F9E1B35D191AD0A20061410B /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		F9E1B360191AD1B70061410B /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				F9E1B364191AD2480061410B /* AFBExample2Presenter.h */,
+				F9E1B365191AD2480061410B /* AFBExample2Presenter.m */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
 		F9E9C661191A91C80073FD30 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +166,7 @@
 				F9E9C68C191A91C90073FD30 /* NSMeetup-MVVM-TalkTests */,
 				F9E9C66C191A91C90073FD30 /* Frameworks */,
 				F9E9C66B191A91C90073FD30 /* Products */,
+				F9E1B357191AD0540061410B /* Vendor */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +193,15 @@
 		F9E9C673191A91C90073FD30 /* NSMeetup-MVVM-Talk */ = {
 			isa = PBXGroup;
 			children = (
+				F9E9C6A6191A92720073FD30 /* Main.storyboard */,
 				F9E9C67C191A91C90073FD30 /* AFBAppDelegate.h */,
 				F9E9C67D191A91C90073FD30 /* AFBAppDelegate.m */,
-				F9E9C67F191A91C90073FD30 /* Images.xcassets */,
+				F911276B191A96EF0024F889 /* Models */,
+				F9E9C69F191A91F80073FD30 /* Views */,
+				F9E1B356191AD0410061410B /* ViewModels */,
+				F9E1B360191AD1B70061410B /* Presenters */,
 				F9E9C674191A91C90073FD30 /* Supporting Files */,
+				F9E9C67F191A91C90073FD30 /* Images.xcassets */,
 			);
 			path = "NSMeetup-MVVM-Talk";
 			sourceTree = "<group>";
@@ -142,6 +233,17 @@
 				F9E9C68F191A91C90073FD30 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E9C69F191A91F80073FD30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C6A0191A921F0073FD30 /* AFBExample1ViewController.h */,
+				F9E9C6A1191A921F0073FD30 /* AFBExample1ViewController.m */,
+				F9E1B361191AD1E30061410B /* AFBExample2ViewController.h */,
+				F9E1B362191AD1E30061410B /* AFBExample2ViewController.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +324,7 @@
 			files = (
 				F9E9C678191A91C90073FD30 /* InfoPlist.strings in Resources */,
 				F9E9C680191A91C90073FD30 /* Images.xcassets in Resources */,
+				F9E9C6A7191A92720073FD30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E1B35F191AD0A20061410B /* EXTScope.m in Sources */,
+				F9E9C6A2191A921F0073FD30 /* AFBExample1ViewController.m in Sources */,
 				F9E9C67E191A91C90073FD30 /* AFBAppDelegate.m in Sources */,
 				F9E9C67A191A91C90073FD30 /* main.m in Sources */,
+				F9E1B35E191AD0A20061410B /* EXTRuntimeExtensions.m in Sources */,
+				F9E1B363191AD1E30061410B /* AFBExample2ViewController.m in Sources */,
+				F9112767191A95DA0024F889 /* Binding.m in Sources */,
+				F911276A191A96E70024F889 /* AFBBook.m in Sources */,
+				F9E1B366191AD2480061410B /* AFBExample2Presenter.m in Sources */,
+				F9E9C6A5191A92340073FD30 /* AFBExample1ViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +549,7 @@
 				F9E9C698191A91C90073FD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F9E9C699191A91C90073FD30 /* Build configuration list for PBXNativeTarget "NSMeetup-MVVM-TalkTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +558,7 @@
 				F9E9C69B191A91C90073FD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
