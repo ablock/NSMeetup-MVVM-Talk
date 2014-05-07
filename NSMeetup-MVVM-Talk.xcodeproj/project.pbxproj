@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9E9C66E191A91C90073FD30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66D191A91C90073FD30 /* Foundation.framework */; };
+		F9E9C670191A91C90073FD30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */; };
+		F9E9C672191A91C90073FD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C671191A91C90073FD30 /* UIKit.framework */; };
+		F9E9C678191A91C90073FD30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E9C676191A91C90073FD30 /* InfoPlist.strings */; };
+		F9E9C67A191A91C90073FD30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9C679191A91C90073FD30 /* main.m */; };
+		F9E9C67E191A91C90073FD30 /* AFBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9C67D191A91C90073FD30 /* AFBAppDelegate.m */; };
+		F9E9C680191A91C90073FD30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E9C67F191A91C90073FD30 /* Images.xcassets */; };
+		F9E9C687191A91C90073FD30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C686191A91C90073FD30 /* XCTest.framework */; };
+		F9E9C688191A91C90073FD30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66D191A91C90073FD30 /* Foundation.framework */; };
+		F9E9C689191A91C90073FD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C671191A91C90073FD30 /* UIKit.framework */; };
+		F9E9C691191A91C90073FD30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9E9C68F191A91C90073FD30 /* InfoPlist.strings */; };
+		F9E9C693191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E9C692191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E9C68A191A91C90073FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9E9C662191A91C80073FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9E9C669191A91C90073FD30;
+			remoteInfo = "NSMeetup-MVVM-Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9E9C66A191A91C90073FD30 /* NSMeetup-MVVM-Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSMeetup-MVVM-Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E9C66D191A91C90073FD30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F9E9C671191A91C90073FD30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F9E9C675191A91C90073FD30 /* NSMeetup-MVVM-Talk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMeetup-MVVM-Talk-Info.plist"; sourceTree = "<group>"; };
+		F9E9C677191A91C90073FD30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9E9C679191A91C90073FD30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9E9C67B191A91C90073FD30 /* NSMeetup-MVVM-Talk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMeetup-MVVM-Talk-Prefix.pch"; sourceTree = "<group>"; };
+		F9E9C67C191A91C90073FD30 /* AFBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFBAppDelegate.h; sourceTree = "<group>"; };
+		F9E9C67D191A91C90073FD30 /* AFBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBAppDelegate.m; sourceTree = "<group>"; };
+		F9E9C67F191A91C90073FD30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9E9C685191A91C90073FD30 /* NSMeetup-MVVM-TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSMeetup-MVVM-TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E9C686191A91C90073FD30 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9E9C68E191A91C90073FD30 /* NSMeetup-MVVM-TalkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSMeetup-MVVM-TalkTests-Info.plist"; sourceTree = "<group>"; };
+		F9E9C690191A91C90073FD30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F9E9C692191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMeetup_MVVM_TalkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9E9C667191A91C90073FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9C670191A91C90073FD30 /* CoreGraphics.framework in Frameworks */,
+				F9E9C672191A91C90073FD30 /* UIKit.framework in Frameworks */,
+				F9E9C66E191A91C90073FD30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E9C682191A91C90073FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9C687191A91C90073FD30 /* XCTest.framework in Frameworks */,
+				F9E9C689191A91C90073FD30 /* UIKit.framework in Frameworks */,
+				F9E9C688191A91C90073FD30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9E9C661191A91C80073FD30 = {
+			isa = PBXGroup;
+			children = (
+				F9E9C673191A91C90073FD30 /* NSMeetup-MVVM-Talk */,
+				F9E9C68C191A91C90073FD30 /* NSMeetup-MVVM-TalkTests */,
+				F9E9C66C191A91C90073FD30 /* Frameworks */,
+				F9E9C66B191A91C90073FD30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9E9C66B191A91C90073FD30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C66A191A91C90073FD30 /* NSMeetup-MVVM-Talk.app */,
+				F9E9C685191A91C90073FD30 /* NSMeetup-MVVM-TalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9E9C66C191A91C90073FD30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C66D191A91C90073FD30 /* Foundation.framework */,
+				F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */,
+				F9E9C671191A91C90073FD30 /* UIKit.framework */,
+				F9E9C686191A91C90073FD30 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E9C673191A91C90073FD30 /* NSMeetup-MVVM-Talk */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C67C191A91C90073FD30 /* AFBAppDelegate.h */,
+				F9E9C67D191A91C90073FD30 /* AFBAppDelegate.m */,
+				F9E9C67F191A91C90073FD30 /* Images.xcassets */,
+				F9E9C674191A91C90073FD30 /* Supporting Files */,
+			);
+			path = "NSMeetup-MVVM-Talk";
+			sourceTree = "<group>";
+		};
+		F9E9C674191A91C90073FD30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C675191A91C90073FD30 /* NSMeetup-MVVM-Talk-Info.plist */,
+				F9E9C676191A91C90073FD30 /* InfoPlist.strings */,
+				F9E9C679191A91C90073FD30 /* main.m */,
+				F9E9C67B191A91C90073FD30 /* NSMeetup-MVVM-Talk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9E9C68C191A91C90073FD30 /* NSMeetup-MVVM-TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C692191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m */,
+				F9E9C68D191A91C90073FD30 /* Supporting Files */,
+			);
+			path = "NSMeetup-MVVM-TalkTests";
+			sourceTree = "<group>";
+		};
+		F9E9C68D191A91C90073FD30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E9C68E191A91C90073FD30 /* NSMeetup-MVVM-TalkTests-Info.plist */,
+				F9E9C68F191A91C90073FD30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9E9C669191A91C90073FD30 /* NSMeetup-MVVM-Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E9C696191A91C90073FD30 /* Build configuration list for PBXNativeTarget "NSMeetup-MVVM-Talk" */;
+			buildPhases = (
+				F9E9C666191A91C90073FD30 /* Sources */,
+				F9E9C667191A91C90073FD30 /* Frameworks */,
+				F9E9C668191A91C90073FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSMeetup-MVVM-Talk";
+			productName = "NSMeetup-MVVM-Talk";
+			productReference = F9E9C66A191A91C90073FD30 /* NSMeetup-MVVM-Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9E9C684191A91C90073FD30 /* NSMeetup-MVVM-TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E9C699191A91C90073FD30 /* Build configuration list for PBXNativeTarget "NSMeetup-MVVM-TalkTests" */;
+			buildPhases = (
+				F9E9C681191A91C90073FD30 /* Sources */,
+				F9E9C682191A91C90073FD30 /* Frameworks */,
+				F9E9C683191A91C90073FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E9C68B191A91C90073FD30 /* PBXTargetDependency */,
+			);
+			name = "NSMeetup-MVVM-TalkTests";
+			productName = "NSMeetup-MVVM-TalkTests";
+			productReference = F9E9C685191A91C90073FD30 /* NSMeetup-MVVM-TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9E9C662191A91C80073FD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AFB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Adam Block";
+				TargetAttributes = {
+					F9E9C684191A91C90073FD30 = {
+						TestTargetID = F9E9C669191A91C90073FD30;
+					};
+				};
+			};
+			buildConfigurationList = F9E9C665191A91C80073FD30 /* Build configuration list for PBXProject "NSMeetup-MVVM-Talk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9E9C661191A91C80073FD30;
+			productRefGroup = F9E9C66B191A91C90073FD30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9E9C669191A91C90073FD30 /* NSMeetup-MVVM-Talk */,
+				F9E9C684191A91C90073FD30 /* NSMeetup-MVVM-TalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9E9C668191A91C90073FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9C678191A91C90073FD30 /* InfoPlist.strings in Resources */,
+				F9E9C680191A91C90073FD30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E9C683191A91C90073FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9C691191A91C90073FD30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9E9C666191A91C90073FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9C67E191A91C90073FD30 /* AFBAppDelegate.m in Sources */,
+				F9E9C67A191A91C90073FD30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E9C681191A91C90073FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E9C693191A91C90073FD30 /* NSMeetup_MVVM_TalkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E9C68B191A91C90073FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9E9C669191A91C90073FD30 /* NSMeetup-MVVM-Talk */;
+			targetProxy = F9E9C68A191A91C90073FD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9E9C676191A91C90073FD30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E9C677191A91C90073FD30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F9E9C68F191A91C90073FD30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E9C690191A91C90073FD30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9E9C694191A91C90073FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9E9C695191A91C90073FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9E9C697191A91C90073FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMeetup-MVVM-Talk/NSMeetup-MVVM-Talk-Prefix.pch";
+				INFOPLIST_FILE = "NSMeetup-MVVM-Talk/NSMeetup-MVVM-Talk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F9E9C698191A91C90073FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMeetup-MVVM-Talk/NSMeetup-MVVM-Talk-Prefix.pch";
+				INFOPLIST_FILE = "NSMeetup-MVVM-Talk/NSMeetup-MVVM-Talk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F9E9C69A191A91C90073FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSMeetup-MVVM-Talk.app/NSMeetup-MVVM-Talk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMeetup-MVVM-Talk/NSMeetup-MVVM-Talk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSMeetup-MVVM-TalkTests/NSMeetup-MVVM-TalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F9E9C69B191A91C90073FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSMeetup-MVVM-Talk.app/NSMeetup-MVVM-Talk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSMeetup-MVVM-Talk/NSMeetup-MVVM-Talk-Prefix.pch";
+				INFOPLIST_FILE = "NSMeetup-MVVM-TalkTests/NSMeetup-MVVM-TalkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9E9C665191A91C80073FD30 /* Build configuration list for PBXProject "NSMeetup-MVVM-Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E9C694191A91C90073FD30 /* Debug */,
+				F9E9C695191A91C90073FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E9C696191A91C90073FD30 /* Build configuration list for PBXNativeTarget "NSMeetup-MVVM-Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E9C697191A91C90073FD30 /* Debug */,
+				F9E9C698191A91C90073FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9E9C699191A91C90073FD30 /* Build configuration list for PBXNativeTarget "NSMeetup-MVVM-TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E9C69A191A91C90073FD30 /* Debug */,
+				F9E9C69B191A91C90073FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9E9C662191A91C80073FD30 /* Project object */;
+}
