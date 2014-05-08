@@ -13,6 +13,8 @@
 		F9E1B35F191AD0A20061410B /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B35C191AD0A20061410B /* EXTScope.m */; };
 		F9E1B363191AD1E30061410B /* AFBExample2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B362191AD1E30061410B /* AFBExample2ViewController.m */; };
 		F9E1B366191AD2480061410B /* AFBExample2Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B365191AD2480061410B /* AFBExample2Presenter.m */; };
+		F9E1B36A191AF8FB0061410B /* AFBExample3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B369191AF8FB0061410B /* AFBExample3ViewController.m */; };
+		F9E1B36D191AF93C0061410B /* AFBExample3ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B36C191AF93C0061410B /* AFBExample3ViewModel.m */; };
 		F9E9C66E191A91C90073FD30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66D191A91C90073FD30 /* Foundation.framework */; };
 		F9E9C670191A91C90073FD30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */; };
 		F9E9C672191A91C90073FD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C671191A91C90073FD30 /* UIKit.framework */; };
@@ -54,6 +56,10 @@
 		F9E1B362191AD1E30061410B /* AFBExample2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample2ViewController.m; sourceTree = "<group>"; };
 		F9E1B364191AD2480061410B /* AFBExample2Presenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample2Presenter.h; sourceTree = "<group>"; };
 		F9E1B365191AD2480061410B /* AFBExample2Presenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample2Presenter.m; sourceTree = "<group>"; };
+		F9E1B368191AF8FB0061410B /* AFBExample3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample3ViewController.h; sourceTree = "<group>"; };
+		F9E1B369191AF8FB0061410B /* AFBExample3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample3ViewController.m; sourceTree = "<group>"; };
+		F9E1B36B191AF93C0061410B /* AFBExample3ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample3ViewModel.h; sourceTree = "<group>"; };
+		F9E1B36C191AF93C0061410B /* AFBExample3ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample3ViewModel.m; sourceTree = "<group>"; };
 		F9E9C66A191A91C90073FD30 /* NSMeetup-MVVM-Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSMeetup-MVVM-Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E9C66D191A91C90073FD30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +131,8 @@
 			children = (
 				F9E9C6A3191A92340073FD30 /* AFBExample1ViewModel.h */,
 				F9E9C6A4191A92340073FD30 /* AFBExample1ViewModel.m */,
+				F9E1B36B191AF93C0061410B /* AFBExample3ViewModel.h */,
+				F9E1B36C191AF93C0061410B /* AFBExample3ViewModel.m */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -242,6 +250,8 @@
 				F9E9C6A1191A921F0073FD30 /* AFBExample1ViewController.m */,
 				F9E1B361191AD1E30061410B /* AFBExample2ViewController.h */,
 				F9E1B362191AD1E30061410B /* AFBExample2ViewController.m */,
+				F9E1B368191AF8FB0061410B /* AFBExample3ViewController.h */,
+				F9E1B369191AF8FB0061410B /* AFBExample3ViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -344,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9E1B35F191AD0A20061410B /* EXTScope.m in Sources */,
+				F9E1B36D191AF93C0061410B /* AFBExample3ViewModel.m in Sources */,
 				F9E9C6A2191A921F0073FD30 /* AFBExample1ViewController.m in Sources */,
 				F9E9C67E191A91C90073FD30 /* AFBAppDelegate.m in Sources */,
 				F9E9C67A191A91C90073FD30 /* main.m in Sources */,
@@ -351,6 +362,7 @@
 				F9E1B363191AD1E30061410B /* AFBExample2ViewController.m in Sources */,
 				F9112767191A95DA0024F889 /* Binding.m in Sources */,
 				F911276A191A96E70024F889 /* AFBBook.m in Sources */,
+				F9E1B36A191AF8FB0061410B /* AFBExample3ViewController.m in Sources */,
 				F9E1B366191AD2480061410B /* AFBExample2Presenter.m in Sources */,
 				F9E9C6A5191A92340073FD30 /* AFBExample1ViewModel.m in Sources */,
 			);
