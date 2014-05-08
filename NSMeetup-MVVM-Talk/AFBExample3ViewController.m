@@ -83,17 +83,17 @@ typedef NS_ENUM(NSInteger, Section) {
     return 2;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-    return section == 0 ? @"Static Cells" : @"Variable Cells";
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if (section == SectionStatic) {
         return 1;
     }
     return [self.viewModel numberOfCellsInVariableLengthSection];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    return section == 0 ? @"Static Cells" : @"Variable Cells";
 }
 
 @end
