@@ -15,6 +15,8 @@
 		F9E1B366191AD2480061410B /* AFBExample2Presenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B365191AD2480061410B /* AFBExample2Presenter.m */; };
 		F9E1B36A191AF8FB0061410B /* AFBExample3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B369191AF8FB0061410B /* AFBExample3ViewController.m */; };
 		F9E1B36D191AF93C0061410B /* AFBExample3ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B36C191AF93C0061410B /* AFBExample3ViewModel.m */; };
+		F9E1B371191B00CC0061410B /* AFBIsAViewModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B370191B00CC0061410B /* AFBIsAViewModelTableViewCell.m */; };
+		F9E1B374191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E1B373191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.m */; };
 		F9E9C66E191A91C90073FD30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66D191A91C90073FD30 /* Foundation.framework */; };
 		F9E9C670191A91C90073FD30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */; };
 		F9E9C672191A91C90073FD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E9C671191A91C90073FD30 /* UIKit.framework */; };
@@ -60,6 +62,10 @@
 		F9E1B369191AF8FB0061410B /* AFBExample3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample3ViewController.m; sourceTree = "<group>"; };
 		F9E1B36B191AF93C0061410B /* AFBExample3ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBExample3ViewModel.h; sourceTree = "<group>"; };
 		F9E1B36C191AF93C0061410B /* AFBExample3ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBExample3ViewModel.m; sourceTree = "<group>"; };
+		F9E1B36F191B00CC0061410B /* AFBIsAViewModelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBIsAViewModelTableViewCell.h; sourceTree = "<group>"; };
+		F9E1B370191B00CC0061410B /* AFBIsAViewModelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBIsAViewModelTableViewCell.m; sourceTree = "<group>"; };
+		F9E1B372191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFBIsNotAViewModelTableViewCell.h; sourceTree = "<group>"; };
+		F9E1B373191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFBIsNotAViewModelTableViewCell.m; sourceTree = "<group>"; };
 		F9E9C66A191A91C90073FD30 /* NSMeetup-MVVM-Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSMeetup-MVVM-Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E9C66D191A91C90073FD30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F9E9C66F191A91C90073FD30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -167,6 +173,17 @@
 			name = Presenters;
 			sourceTree = "<group>";
 		};
+		F9E1B36E191B00A00061410B /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				F9E1B36F191B00CC0061410B /* AFBIsAViewModelTableViewCell.h */,
+				F9E1B370191B00CC0061410B /* AFBIsAViewModelTableViewCell.m */,
+				F9E1B372191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.h */,
+				F9E1B373191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.m */,
+			);
+			name = UITableViewCells;
+			sourceTree = "<group>";
+		};
 		F9E9C661191A91C80073FD30 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +226,7 @@
 				F9E1B356191AD0410061410B /* ViewModels */,
 				F9E1B360191AD1B70061410B /* Presenters */,
 				F9E9C674191A91C90073FD30 /* Supporting Files */,
+				F9E1B36E191B00A00061410B /* UITableViewCells */,
 				F9E9C67F191A91C90073FD30 /* Images.xcassets */,
 			);
 			path = "NSMeetup-MVVM-Talk";
@@ -356,6 +374,8 @@
 				F9E1B35F191AD0A20061410B /* EXTScope.m in Sources */,
 				F9E1B36D191AF93C0061410B /* AFBExample3ViewModel.m in Sources */,
 				F9E9C6A2191A921F0073FD30 /* AFBExample1ViewController.m in Sources */,
+				F9E1B371191B00CC0061410B /* AFBIsAViewModelTableViewCell.m in Sources */,
+				F9E1B374191B00DC0061410B /* AFBIsNotAViewModelTableViewCell.m in Sources */,
 				F9E9C67E191A91C90073FD30 /* AFBAppDelegate.m in Sources */,
 				F9E9C67A191A91C90073FD30 /* main.m in Sources */,
 				F9E1B35E191AD0A20061410B /* EXTRuntimeExtensions.m in Sources */,
